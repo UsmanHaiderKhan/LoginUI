@@ -8,7 +8,8 @@
     android:orientation="vertical"
     android:paddingLeft="19dp"
     android:paddingRight="19dp"
-    android:paddingTop="0dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_horizontal_margin"
     android:background="@drawable/gradient_layout">
 
     <ScrollView
@@ -42,7 +43,7 @@
                 android:maxLines="1"
                 android:drawableLeft="@drawable/ic_email_black_24dp"
                 />
-            <view
+            <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:background="#f9d7db"/>
@@ -62,7 +63,7 @@
                 android:layout_marginTop="4dp"
                 android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
                 />
-            <view
+            <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:background="#f9d7db"/>
@@ -84,7 +85,7 @@
                 android:textColor="#f16f7d"
                 android:textAllCaps="false"
                 android:padding="16dp"
-                style="@style/Base.TextAppearance.AppCompat.Body1"
+
                 android:clickable="true"
                 android:layout_marginTop="24dp"
                 android:textSize="18sp"/>
@@ -97,13 +98,14 @@
                 android:textSize="18sp"
                 android:layout_marginTop="16dp"
                 android:clickable="true"
-                android:padding="16dp"/>
+                android:padding="16dp"
+                android:textColor="#fff"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Forget Your Password...!"
-                style="@style/Base.TextAppearance.AppCompat.Body2"
+
                 android:textColor="#fff"
                 android:padding="16dp"
                 android:clickable="true"
